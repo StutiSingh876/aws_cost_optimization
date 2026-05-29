@@ -46,16 +46,18 @@ EventBridge → Lambda → boto3 → EC2 Resource Monitoring → Optimization Ac
 ```bash id="zjlwmn"
 aws-cost-optimization/
 │
-├── README.md
-├── lambda_function.py
-├── requirements.txt
-├── architecture.md
-├── architecture-diagram.png
-│
+├── docs/
+    ├── architecture.md
+    ├──project_overview.md
 ├── screenshots/
 │   ├── iam-roles.png
 │   ├── iam-policies.png
 │   └── aws-dashboard.png
+├── .gitignore
+├── README.md
+│──lambds_function.py
+│──requirements.txt
+
 ```
 
 ---
