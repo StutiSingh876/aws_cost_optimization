@@ -81,6 +81,3 @@ aws-cost-optimization/
 
 ---
 
-## Screenshots
-
-(Add screenshots here)
