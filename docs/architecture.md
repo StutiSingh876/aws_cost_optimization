@@ -35,3 +35,26 @@ The automation logic monitors EC2-related resources for optimization workflows.
 ## Architecture Flow
 
 EventBridge → Lambda Function → boto3 SDK → AWS Resource Monitoring → Optimization Workflow
++----------------------+
+|   Amazon EventBridge |
+|  (Scheduled Trigger) |
++----------+-----------+
+           |
+           v
++----------------------+
+|     AWS Lambda       |
+|  Python Automation   |
+| (lambda_function.py) |
++----------+-----------+
+           |
+           v
++----------------------+
+|      IAM Role        |
+|  Permissions Policy  |
++----------+-----------+
+           |
+           v
++----------------------+
+|   Amazon EC2 / EBS   |
+|   Snapshot Handling  |
++----------------------+
