@@ -52,7 +52,6 @@ aws-cost-optimization/
 ├── screenshots/
 │   ├── iam-roles.png
 │   ├── iam-policies.png
-│   └── aws-dashboard.png
 ├── .gitignore
 ├── README.md
 │──lambds_function.py
